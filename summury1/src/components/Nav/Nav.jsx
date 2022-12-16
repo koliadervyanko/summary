@@ -16,8 +16,10 @@ function Nav() {
           </div>
           <nav className="headerMenu">
             <ul className="headerLink">
-              <li className="about">
-                <a href="">О мне</a>
+              <li>
+                <a href="" className="about">
+                  О мне
+                </a>
               </li>
               <li>
                 <a href="">Преимущества</a>
