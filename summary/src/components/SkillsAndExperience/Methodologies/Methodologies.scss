@@ -1,0 +1,30 @@
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+@media (max-width: 850px) {
+  .proficiency {
+    margin-right: 30px;
+    // font-size: ;
+  }
+
+  .years {
+    padding-right: 24px;
+  }
+}
+
+// 525
+
+@media (max-width: 625px) {
+  .proficiency {
+    margin-right: 25px;
+    font-size: 22px;
+  }
+
+  .years {
+    padding-right: 14px;
+    font-size: 25px;
+  }
+}

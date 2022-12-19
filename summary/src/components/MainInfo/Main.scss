@@ -1,0 +1,28 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
+  font-weight: 700;
+  color: #a435f0;
+}
+img {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 50px;
+}
+
+.info {
+  margin-top: 80px;
+  .phone,
+  .address,
+  .born {
+    font-size: 30px;
+    margin-left: 200px;
+    line-height: 40px;
+  }
+  span {
+    font-weight: 600;
+  }
+}

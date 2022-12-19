@@ -1,0 +1,11 @@
+.info1 {
+  width: 86%;
+  margin: 40px 5% 80px;
+  font-weight: 500;
+}
+
+@media (max-width: 1523px) {
+  .info1 {
+    font-size: 18px;
+  }
+}

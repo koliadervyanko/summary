@@ -1,29 +1,21 @@
-import React from "react";
+import React, { FC } from "react";
 import "./Nav.scss";
+import List from "./List";
+import "./NavMedia.scss";
 
-function Nav() {
+const Nav: FC = () => {
   return (
     <div>
       <nav>
-        <div className="logo">
-          <a href="">Logo</a>
-        </div>
-        <div className="list">
-          <ul>
-            <li>
-              <a href="#">SUMMARY</a>
-            </li>
-            <li>
-              <a href="#">SKILLS</a>
-            </li>
-            <li>
-              <a href="#">MORE INFORMATION</a>
-            </li>
-          </ul>
+        <div className="navBody">
+          <div className="logo">
+            <a href="">LOGO</a>
+          </div>
+          <List></List>
         </div>
       </nav>
     </div>
   );
-}
+};
 
 export default Nav;
