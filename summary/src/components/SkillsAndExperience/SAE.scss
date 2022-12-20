@@ -22,3 +22,21 @@
 
   border: 0.5px solid #000000;
 }
+
+@media (max-width: 625px) {
+  .years {
+    font-size: 2px;
+  }
+  .proficiency {
+    font-size: 2px;
+  }
+}
+
+@media (max-width: 400px) {
+  .years {
+    font-size: 2px;
+  }
+  .proficiency {
+    font-size: 2px;
+  }
+}

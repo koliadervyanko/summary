@@ -1,14 +1,14 @@
 import React, { FC } from "react";
 import Items from "./Items/Items";
-import "./TT.scss";
+import "./Languages.scss";
 
-const TT: FC = () => {
+const Languages: FC = () => {
   return (
     <div>
-      <h2 className="TTH">Test Types</h2>
+      <h2 className="LH">Languages</h2>
       <Items />
     </div>
   );
 };
 
-export default TT;
+export default Languages;

@@ -86,4 +86,24 @@
     font-size: 15px;
     right: -230px;
   }
+  .MUAT {
+    width: 0px;
+  }
+  .UAT {
+    width: 1px;
+  }
+}
+
+// MUAT
+
+// 509
+
+@media (max-width: 509px) {
+  .MUAT {
+    width: 200px;
+  }
+
+  .MAT {
+    width: 10px;
+  }
 }

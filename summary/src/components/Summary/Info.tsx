@@ -4,18 +4,18 @@ const Info = () => {
   return (
     <div>
       <p className="info1">
-        Test Engineer with more than 10 years of technical experience in IT, 8
-        years in Software Testing. The rich and deep experience in Software
-        development, processes. Comprehensive knowledge of the methods and
-        principles of software test engineering. Familiar with software
-        compilers, architecture embedded processing, and operating systems.
-        Coordinate with management to develop software testing concepts and
-        objectives. Interface with software developers in areas of creating
-        software test work products including test cases, test plans, test
-        procedures, and test reports. Participating in meetings with clients and
-        sprints demos holding. Strong system administration skills. Experience
-        of working as system administrator, specific infrastructure setup (web,
-        database, data servers). Experience of knowledge in SQL and
+        <span className="boldText">Test Engineer </span>with more than 10 years
+        of technical experience in IT, 8 years in Software Testing. The rich and
+        deep experience in Software development, processes. Comprehensive
+        knowledge of the methods and principles of software test engineering.
+        Familiar with software compilers, architecture embedded processing, and
+        operating systems. Coordinate with management to develop software
+        testing concepts and objectives. Interface with software developers in
+        areas of creating software test work products including test cases, test
+        plans, test procedures, and test reports. Participating in meetings with
+        clients and sprints demos holding. Strong system administration skills.
+        Experience of working as system administrator, specific infrastructure
+        setup (web, database, data servers). Experience of knowledge in SQL and
         non-relational Databases, Windows platforms, client / server
         applications, standalone applications, addition, multimedia. Clients
         support, research and issues solving. Responsible for developing and

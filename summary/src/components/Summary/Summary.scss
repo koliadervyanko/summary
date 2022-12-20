@@ -1,11 +1,20 @@
 .info1 {
   width: 86%;
-  margin: 40px 5% 80px;
+  margin: 7px 5% 20px;
   font-weight: 500;
+  font-size: 22px;
+}
+
+.boldText {
+  font-weight: 600;
+  font-size: 27px;
 }
 
 @media (max-width: 1523px) {
   .info1 {
     font-size: 18px;
+  }
+  .boldText {
+    font-size: 23px;
   }
 }

@@ -1,14 +1,13 @@
 import React, { FC } from "react";
 import Items from "./Items/Items";
-import "./TT.scss";
 
-const TT: FC = () => {
+const Environments: FC = () => {
   return (
     <div>
-      <h2 className="TTH">Test Types</h2>
+      <h2 className="FLH">Environments</h2>
       <Items />
     </div>
   );
 };
 
-export default TT;
+export default Environments;

@@ -5,7 +5,7 @@ import Items from "./Items/Items";
 const Methodologies: FC = () => {
   return (
     <div>
-      <h2>Methodologies</h2>
+      <h2 className="MH">Methodologies</h2>
       <Items></Items>
     </div>
   );
