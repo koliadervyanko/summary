@@ -1,7 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 import "./Locations.scss";
+import "./Media.scss";
 
-const Locations = () => {
+const Locations: FC = () => {
   return (
     <div>
       <p className="bold loc1">
