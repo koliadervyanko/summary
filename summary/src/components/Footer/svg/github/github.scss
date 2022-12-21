@@ -1,0 +1,14 @@
+.github {
+  width: 50px;
+  display: block;
+  margin: auto;
+  position: relative;
+  right: 50px;
+  top: -75px;
+  padding-bottom: 20px;
+  transition: fill 0.4s ease-in-out;
+
+  &:hover {
+    fill: #a435f0;
+  }
+}

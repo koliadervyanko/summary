@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import Items from "./Items/Items";
+import "./Media.scss";
 
 const Environments: FC = () => {
   return (

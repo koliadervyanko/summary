@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import "./Methodologies.scss";
 import Items from "./Items/Items";
+import "./MethodologiesMedia.scss";
 
 const Methodologies: FC = () => {
   return (

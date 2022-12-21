@@ -1,0 +1,76 @@
+@media (max-width: 850px) {
+  .MY {
+    position: absolute;
+    right: -140px;
+    font-size: 20px;
+  }
+  .MP {
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  .M {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 625px) {
+  .MY {
+    position: absolute;
+    right: -190px;
+    font-size: 20px;
+  }
+
+  .M3 {
+    width: 50%;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 399px) {
+  .M {
+    font-size: 15px;
+  }
+  .MP {
+    font-size: 15px;
+  }
+  .MY {
+    font-size: 15px;
+    right: -230px;
+  }
+}
+
+@media (max-width: 784px) {
+  .IM {
+    width: 1px;
+  }
+}
+
+@media (max-width: 559px) {
+  .IL {
+    width: 1px;
+  }
+}
+
+@media (max-width: 460px) {
+  .IMY {
+    width: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .IMSS {
+    width: 350px;
+  }
+}
+
+@media (max-width: 653px) {
+  .IMSS {
+    width: 250px;
+  }
+}
+
+@media (max-width: 493px) {
+  .IMSS {
+    width: 150px;
+  }
+}

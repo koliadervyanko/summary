@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import Items from "./Items/Items";
-import "./Languages.scss";
+import "./Media.scss";
 
 const Languages: FC = () => {
   return (

@@ -4,6 +4,7 @@ import Main from "./MainInfo/Main";
 import Summary from "./Summary/Summary";
 import SAE from "./SkillsAndExperience/SAE";
 import MoreInfo from "./MoreInfo/MoreInfo";
+import Footer from "./Footer/Footer";
 
 const App: FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: FC = () => {
       <Summary></Summary>
       <SAE></SAE>
       <MoreInfo />
+      <Footer />
     </div>
   );
 };

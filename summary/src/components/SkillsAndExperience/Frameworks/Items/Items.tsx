@@ -1,7 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 import "./Item.scss";
+import "./Media.scss";
 
-const Items = () => {
+const Items: FC = () => {
   return (
     <div>
       {/* .NET Framework */}

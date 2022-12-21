@@ -1,5 +1,6 @@
 import React from "react";
 import "./Item.scss";
+import "./Media.scss";
 
 const Items = () => {
   return (

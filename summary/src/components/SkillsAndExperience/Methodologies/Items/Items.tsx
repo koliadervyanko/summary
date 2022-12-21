@@ -15,9 +15,9 @@ const Items = () => {
       <p className="MP2 MP">Intermediate</p>
 
       {/* Agile Software Development */}
-      <p className="M3 M">Agile Software Development</p>
-      <p className="MY3 MY">4</p>
-      <p className="MP3 MP">Expert</p>
+      <p className="M3 M ASD">Agile Software Development</p>
+      <p className="MY3 MY ASD_Y">4</p>
+      <p className="MP3 MP ASD_P">Expert</p>
 
       {/* Spiral model */}
       <p className="M4 M">Spiral model</p>

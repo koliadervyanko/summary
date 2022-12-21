@@ -1,6 +1,6 @@
 import React from "react";
-import "./FL.scss";
 import Items from "./Items/Items";
+import "./Media.scss";
 
 const F = () => {
   return (
