@@ -29,14 +29,15 @@
   }
   .logo {
     font-size: 11px;
-    // padding-bottom: 10px;
-    // padding-top: -400px;
+    position: relative;
+    bottom: 1px;
   }
   nav {
     height: 70px;
     font-weight: 700;
   }
   .navBody {
-    margin-bottom: 200px;
+    position: relative;
+    bottom: 10px;
   }
 }

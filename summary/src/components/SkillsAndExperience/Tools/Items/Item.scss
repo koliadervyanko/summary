@@ -46,15 +46,6 @@
   @include proficiency();
 }
 @media (max-width: 850px) {
-  .MY {
-    position: absolute;
-    right: -140px;
-    font-size: 20px;
-  }
-  .MP {
-    margin-right: 30px;
-    font-size: 20px;
-  }
   .M {
     font-size: 20px;
   }
@@ -129,6 +120,8 @@
     width: 100px;
   }
 }
+
+// MSS
 // 456
 
 @media (max-width: 456px) {
@@ -138,6 +131,14 @@
 }
 
 // 339
+
+@media (max-width: 423) {
+  .MSS {
+    width: 10px;
+  }
+}
+
+// 423
 
 @media (max-width: 399px) {
   .MSS {
@@ -165,5 +166,22 @@
 @media (max-width: 418px) {
   .S {
     width: 100px;
+  }
+}
+
+// MSQL
+// 576
+
+@media (max-width: 576px) {
+  .MSQL {
+    width: 250px;
+  }
+}
+
+// 452
+
+@media (max-width: 452px) {
+  .MSQL {
+    width: 150px;
   }
 }

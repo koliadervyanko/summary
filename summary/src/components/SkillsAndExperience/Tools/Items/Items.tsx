@@ -107,9 +107,9 @@ const Items = () => {
       <p className="MP2 MP">Beginner</p>
 
       {/* Microsoft SQL Server 2000 / 2005 */}
-      <p className="M3 M MSS">Microsoft SQL Server 2000 / 2005</p>
-      <p className="MY3 MY">3</p>
-      <p className="MP3 MP">Intermediate</p>
+      <p className="M2 M MSQL">Microsoft SQL Server 2000 / 2005</p>
+      <p className="MY2 MY">2</p>
+      <p className="MP2 MP">Intermediate</p>
 
       {/* PHP My admin */}
       <p className="M4 M">PHP My admin</p>

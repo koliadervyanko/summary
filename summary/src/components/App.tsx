@@ -3,6 +3,7 @@ import Nav from "./Nav/Nav";
 import Main from "./MainInfo/Main";
 import Summary from "./Summary/Summary";
 import SAE from "./SkillsAndExperience/SAE";
+import MoreInfo from "./MoreInfo/MoreInfo";
 
 const App: FC = () => {
   return (
@@ -11,6 +12,7 @@ const App: FC = () => {
       <Main></Main>
       <Summary></Summary>
       <SAE></SAE>
+      <MoreInfo />
     </div>
   );
 };

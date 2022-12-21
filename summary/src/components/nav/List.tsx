@@ -1,6 +1,4 @@
 import React from "react";
-import Summary from "../Summary/Summary";
-import SAE from "../SkillsAndExperience/SAE";
 
 function List() {
   return (
@@ -14,7 +12,7 @@ function List() {
             <a href="#SAE">SKILLS</a>
           </li>
           <li>
-            <a href="#">MORE INFORMATION</a>
+            <a href="#MF">MORE INFORMATION</a>
           </li>
         </ul>
       </div>
