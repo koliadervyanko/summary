@@ -60,19 +60,17 @@ const Items = () => {
       <p className="MP1 MP">Advanced</p>
 
       {/* User Acceptance Testing */}
-      <p className="M2 M MUAT">
-        User Acceptance <br /> Testing
-      </p>
+      <p className="M2 M MUAT">User Acceptance Testing</p>
       <p className="MY2 MY MUATY_Y">3</p>
       <p className="MP2 MP MUATY_P">Intermediate</p>
 
       {/* Security Testing */}
-      <p className="M3 M">Security Testing</p>
+      <p className="M3 M ST">Security Testing</p>
       <p className="MY3 MY">1</p>
       <p className="MP3 MP">Beginner</p>
 
       {/* Delivery Testing */}
-      <p className="M4 M">Delivery Testing</p>
+      <p className="M4 M DT">Delivery Testing</p>
       <p className="MY4 MY">4</p>
       <p className="MP4 MP">Expert</p>
     </div>

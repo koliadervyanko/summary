@@ -10,7 +10,7 @@ const Items = () => {
       <p className="MP1 MP">Beginner</p>
 
       {/* Selenium RC/IDE */}
-      <p className="M2 M">Selenium RC/IDE</p>
+      <p className="M2 M S">Selenium RC / IDE</p>
       <p className="MY2 MY">2</p>
       <p className="MP2 MP">Advanced</p>
 
@@ -72,7 +72,7 @@ const Items = () => {
       <p className="MP1 MP">Intermediate</p>
 
       {/* Active Direactory */}
-      <p className="M2 M">Active Direactory</p>
+      <p className="M2 M AD">Active Direactory</p>
       <p className="MY2 MY">3</p>
       <p className="MP2 MP">Intermediate</p>
 
@@ -107,7 +107,7 @@ const Items = () => {
       <p className="MP2 MP">Beginner</p>
 
       {/* Microsoft SQL Server 2000 / 2005 */}
-      <p className="M3 M">Microsoft SQL Server 2000 / 2005</p>
+      <p className="M3 M MSS">Microsoft SQL Server 2000 / 2005</p>
       <p className="MY3 MY">3</p>
       <p className="MP3 MP">Intermediate</p>
 
@@ -127,7 +127,7 @@ const Items = () => {
       <p className="MP4 MP">Expert</p>
 
       {/* Microsoft Outlook */}
-      <p className="M1 M">Microsoft Outlook</p>
+      <p className="M1 M MO">Microsoft Outlook</p>
       <p className="MY1 MY">6</p>
       <p className="MP1 MP">Expert</p>
 

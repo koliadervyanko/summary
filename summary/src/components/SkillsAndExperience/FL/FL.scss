@@ -1,9 +1,3 @@
-@media (max-width: 471px) {
-  .M1 {
-    width: 1px;
-  }
-}
-
 @media (max-width: 625px) {
   .FLH {
     font-size: 25px;
@@ -13,5 +7,13 @@
 @media (max-width: 400px) {
   .FLH {
     font-size: 20px;
+  }
+}
+
+// 545
+
+@media (max-width: 545px) {
+  h2 {
+    width: 1px;
   }
 }

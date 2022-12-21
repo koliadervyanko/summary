@@ -4,7 +4,8 @@ import Items from "./Items/Items";
 const Tools = () => {
   return (
     <div>
-      <h2 className="TH">Tools</h2>
+      <h2 className="FLH">Tools</h2>
+
       <Items />
     </div>
   );

@@ -4,7 +4,8 @@ import Items from "./Items/Items";
 const Databases: FC = () => {
   return (
     <div>
-      <h2 className="DH">Databases</h2>
+      <h2 className="FLH">Databases</h2>
+
       <Items />
     </div>
   );
