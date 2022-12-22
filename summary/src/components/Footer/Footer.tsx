@@ -11,10 +11,7 @@ const Footer: FC = () => {
       >
         <Linkedin />
       </a>
-      <a
-        href="https://github.com/mderevyankoaqa?tab=repositories"
-        target="_blank"
-      >
+      <a href="https://github.com/mderevyankoaqa" target="_blank">
         <Github />
       </a>
     </div>
