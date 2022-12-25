@@ -2,23 +2,30 @@ import React from "react";
 import "./Item.scss";
 import "./Media.scss";
 
+/* make the order */
 const Items = () => {
   return (
     <div>
       {/* C# */}
       <p className="M1 M">C#</p>
-      <p className="MY1 MY">6</p>
+      <p className="MY1 MY">7</p>
       <p className="MP1 MP">Intermediate</p>
 
       {/* Java */}
       <p className="M2 M">Java</p>
-      <p className="MY2 MY">0.5</p>
+      <p className="MY2 MY">4</p>
       <p className="MP2 MP">Beginner</p>
 
       {/* PHP */}
       <p className="M3 M">PHP</p>
       <p className="MY3 MY">0.5</p>
       <p className="MP3 MP">Beginner</p>
+
+      {/* PHP */}
+      <p className="M3 M">Python</p>
+      <p className="MY3 MY">2</p>
+      <p className="MP3 MP">Beginner</p>
+
 
       {/* Java Script */}
       <p className="M4 M">Java Script</p>

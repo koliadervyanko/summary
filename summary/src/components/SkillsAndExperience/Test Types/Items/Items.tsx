@@ -2,18 +2,20 @@ import React, { FC } from "react";
 import "./Item.scss";
 import "./Media.scss";
 
+/* TODO: make the order Ascending by  <p className="MP1 MP">Expert</p> or group by similar  */
+
 const Items: FC = () => {
   return (
     <div>
       {/* Functional */}
       <p className="M1 M">Functional</p>
-      <p className="MY1 MY">6</p>
-      <p className="MP1 MP">Advanced</p>
+      <p className="MY1 MY">8</p>
+      <p className="MP1 MP">Expert</p>
 
       {/* Regression */}
       <p className="M2 M">Regression</p>
-      <p className="MY2 MY">6</p>
-      <p className="MP2 MP">Advanced</p>
+      <p className="MY2 MY">8</p>
+      <p className="MP2 MP">Expert</p>
 
       {/* Ad Hoc */}
       <p className="M3 M">Ad Hoc</p>
@@ -23,12 +25,12 @@ const Items: FC = () => {
       {/* Load */}
       <p className="M4 M">Load</p>
       <p className="MY4 MY">5</p>
-      <p className="MP4 MP">Advanced</p>
+      <p className="MP4 MP">Expert</p>
 
       {/* Stress */}
       <p className="M1 M">Stress</p>
       <p className="MY1 MY">5</p>
-      <p className="MP1 MP">Advanced</p>
+      <p className="MP1 MP">Expert</p>
 
       {/* Performance */}
       <p className="M2 M">Performance</p>

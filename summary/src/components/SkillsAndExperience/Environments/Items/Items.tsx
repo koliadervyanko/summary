@@ -10,12 +10,12 @@ const Items = () => {
         Windows / 2003 / 2008 / 2012 / 2014 / 2016 / core / 7 / 8 / 10
       </p>
       <p className="MY1 MY">6</p>
-      <p className="MP1 MP">Intermediate</p>
+      <p className="MP1 MP">Expert</p>
 
       {/* Linux Mandriva/Ubuntu/Fedora */}
-      <p className="M2 M ILinux">Linux Mandriva / Ubuntu / Fedora</p>
-      <p className="MY2 MY">1</p>
-      <p className="MP2 MP">Beginner</p>
+      <p className="M2 M ILinux">CentOS, Redhat</p>
+      <p className="MY2 MY">4</p>
+      <p className="MP2 MP">Intermediate</p>
 
       {/* Mac OS */}
       <p className="M4 M">Mac OS</p>
