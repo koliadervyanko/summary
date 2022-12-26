@@ -5,162 +5,162 @@ import "./Media.scss";
 const Items = () => {
   return (
     <div>
-      {/* Test Complete */}
-      <p className="M1 M">Test Complete</p>
-      <p className="MY1 MY">0.5</p>
-      <p className="MP1 MP">Beginner</p>
-
-      {/* Selenium RC/IDE */}
-      <p className="M2 M S">Selenium RC / IDE</p>
-      <p className="MY2 MY">2</p>
-      <p className="MP2 MP">Advanced</p>
-
-      {/* LoadRunner */}
-      <p className="M3 M">LoadRunner</p>
-      <p className="MY3 MY">0.5</p>
-      <p className="MP3 MP">Beginner</p>
-
-      {/* Nunit */}
-      <p className="M4 M">Nunit</p>
-      <p className="MY4 MY">2</p>
-      <p className="MP4 MP">Intermediate</p>
-
-      {/* PHPUnit */}
-      <p className="M4 M">PHPUnit</p>
-      <p className="MY4 MY">1.5</p>
-      <p className="MP4 MP">Beginner</p>
-
-      {/* Ant */}
-      <p className="M4 M">Ant</p>
-      <p className="MY4 MY">1</p>
-      <p className="MP4 MP">Beginner</p>
-
-      {/* Junit */}
-      <p className="M1 M">Junit</p>
-      <p className="MY1 MY">1.5</p>
-      <p className="MP1 MP">Beginner</p>
-
-      {/* Microsoft Visual Studio 2007 / 2010 / 2012/ 2015 */}
-      <p className="M2 M IMVS">
-        Microsoft Visual Studio 2007 / 2010 / 2012 / 2015
-      </p>
-      <p className="MY2 MY">6</p>
-      <p className="MP2 MP">Advanced</p>
-
-      {/* Eclipse IDE */}
-      <p className="M3 M">Eclipse IDE</p>
-      <p className="MY3 MY">1.5</p>
-      <p className="MP3 MP">Beginner</p>
-
-      {/* NetBeans */}
-      <p className="M4 M">NetBeans</p>
-      <p className="MY4 MY">0.5</p>
-      <p className="MP4 MP">Beginner</p>
-
-      {/* XCode */}
-      <p className="M4 M">XCode</p>
-      <p className="MY4 MY">1</p>
-      <p className="MP4 MP">Beginner</p>
-
       {/* IIS */}
-      <p className="M4 M">IIS</p>
-      <p className="MY4 MY">6</p>
-      <p className="MP4 MP">Expert</p>
-
-      {/* Elastic Search */}
-      <p className="M1 M">Elastic Search</p>
-      <p className="MY1 MY">4</p>
-      <p className="MP1 MP">Intermediate</p>
-
-      {/* Active Direactory */}
-      <p className="M2 M AD">Active Direactory</p>
-      <p className="MY2 MY">3</p>
-      <p className="MP2 MP">Intermediate</p>
-
-      {/* Apache */}
-      <p className="M3 M">Apache</p>
-      <p className="MY3 MY">3</p>
-      <p className="MP3 MP">Intermediate</p>
-
-      {/* WINS */}
-      <p className="M4 M">WINS</p>
-      <p className="MY4 MY">2</p>
-      <p className="MP4 MP">Intermediate</p>
-
-      {/* Acronis Backup */}
-      <p className="M4 M">Acronis Backup</p>
-      <p className="MY4 MY">2</p>
-      <p className="MP4 MP">Intermediate</p>
-
-      {/* Mail System */}
-      <p className="M4 M">Mail System</p>
-      <p className="MY4 MY">0.5</p>
-      <p className="MP4 MP">Intermediate</p>
-
-      {/* KDE packages */}
-      <p className="M1 M">Beginner</p>
-      <p className="MY1 MY">1</p>
-      <p className="MP1 MP">Intermediate</p>
-
-      {/* DHCP */}
-      <p className="M2 M">DHCP</p>
-      <p className="MY2 MY">1.5</p>
-      <p className="MP2 MP">Beginner</p>
-
-      {/* Microsoft SQL Server 2000 / 2005 */}
-      <p className="M2 M MSQL">Microsoft SQL Server 2000 / 2005</p>
-      <p className="MY2 MY">2</p>
-      <p className="MP2 MP">Intermediate</p>
-
-      {/* PHP My admin */}
-      <p className="M4 M">PHP My admin</p>
-      <p className="MY4 MY">1.5</p>
-      <p className="MP4 MP">Beginner</p>
+      <p className="skill-4 skill">IIS</p>
+      <p className="year-4 year">6</p>
+      <p className="proficiency-4 proficiency">Expert</p>
 
       {/* Microsoft Office */}
-      <p className="M4 M">Microsoft Office</p>
-      <p className="MY4 MY">6</p>
-      <p className="MP4 MP">Expert</p>
+      <p className="skill-4 skill">Microsoft Office</p>
+      <p className="year-4 year">6</p>
+      <p className="proficiency-4 proficiency">Expert</p>
 
       {/* Microsoft Excel */}
-      <p className="M4 M">Microsoft Excel</p>
-      <p className="MY4 MY">6</p>
-      <p className="MP4 MP">Expert</p>
+      <p className="skill-4 skill">Microsoft Excel</p>
+      <p className="year-4 year">6</p>
+      <p className="proficiency-4 proficiency">Expert</p>
 
       {/* Microsoft Outlook */}
-      <p className="M1 M MO">Microsoft Outlook</p>
-      <p className="MY1 MY">6</p>
-      <p className="MP1 MP">Expert</p>
+      <p className="skill-1 skill MO">Microsoft Outlook</p>
+      <p className="year-1 year">6</p>
+      <p className="proficiency-1 proficiency">Expert</p>
 
-      {/* MS Project */}
-      <p className="M2 M">MS Project</p>
-      <p className="MY2 MY">1.5</p>
-      <p className="MP2 MP">Beginner</p>
+      {/* Selenium RC/IDE */}
+      <p className="skill-2 skill S">Selenium RC / IDE</p>
+      <p className="year-2 year">2</p>
+      <p className="proficiency-2 proficiency">Advanced</p>
+
+      {/* Microsoft Visual Studio 2007 / 2010 / 2012/ 2015 */}
+      <p className="skill-2 skill IMVS">
+        Microsoft Visual Studio 2007 / 2010 / 2012 / 2015
+      </p>
+      <p className="year-2 year">6</p>
+      <p className="proficiency-2 proficiency">Advanced</p>
+
+      {/* Nunit */}
+      <p className="skill-4 skill">Nunit</p>
+      <p className="year-4 year">2</p>
+      <p className="proficiency-4 proficiency">Intermediate</p>
+
+      {/* Elastic Search */}
+      <p className="skill-1 skill">Elastic Search</p>
+      <p className="year-1 year">4</p>
+      <p className="proficiency-1 proficiency">Intermediate</p>
+
+      {/* Active Direactory */}
+      <p className="skill-2 skill AD">Active Direactory</p>
+      <p className="year-2 year">3</p>
+      <p className="proficiency-2 proficiency">Intermediate</p>
+
+      {/* Apache */}
+      <p className="skill-3 skill">Apache</p>
+      <p className="year-3 year">3</p>
+      <p className="proficiency-3 proficiency">Intermediate</p>
+
+      {/* WINS */}
+      <p className="skill-4 skill">WINS</p>
+      <p className="year-4 year">2</p>
+      <p className="proficiency-4 proficiency">Intermediate</p>
+
+      {/* Acronis Backup */}
+      <p className="skill-4 skill">Acronis Backup</p>
+      <p className="year-4 year">2</p>
+      <p className="proficiency-4 proficiency">Intermediate</p>
+
+      {/* Mail System */}
+      <p className="skill-4 skill">Mail System</p>
+      <p className="year-4 year">0.5</p>
+      <p className="proficiency-4 proficiency">Intermediate</p>
+
+      {/* KDE packages */}
+      <p className="skill-1 skill">KDE packages</p>
+      <p className="year-1 year">1</p>
+      <p className="proficiency-1 proficiency">Intermediate</p>
+
+      {/* Microsoft SQL Server 2000 / 2005 */}
+      <p className="skill-2 skill MSQL">Microsoft SQL Server 2000 / 2005</p>
+      <p className="year-2 year">2</p>
+      <p className="proficiency-2 proficiency">Intermediate</p>
 
       {/* Jira */}
-      <p className="M3 M">Jira</p>
-      <p className="MY3 MY">4</p>
-      <p className="MP3 MP">Intermediate</p>
+      <p className="skill-3 skill">Jira</p>
+      <p className="year-3 year">4</p>
+      <p className="proficiency-3 proficiency">Intermediate</p>
 
       {/* Mantis */}
-      <p className="M4 M">Mantis</p>
-      <p className="MY4 MY">2</p>
-      <p className="MP4 MP">Intermediate</p>
+      <p className="skill-4 skill">Mantis</p>
+      <p className="year-4 year">2</p>
+      <p className="proficiency-4 proficiency">Intermediate</p>
+
+      {/* PHPUnit */}
+      <p className="skill-4 skill">PHPUnit</p>
+      <p className="year-4 year">1.5</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
+
+      {/* Ant */}
+      <p className="skill-4 skill">Ant</p>
+      <p className="year-4 year">1</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
+
+      {/* Junit */}
+      <p className="skill-1 skill">Junit</p>
+      <p className="year-1 year">1.5</p>
+      <p className="proficiency-1 proficiency">Beginner</p>
+
+      {/* Eclipse IDE */}
+      <p className="skill-3 skill">Eclipse IDE</p>
+      <p className="year-3 year">1.5</p>
+      <p className="proficiency-3 proficiency">Beginner</p>
+
+      {/* NetBeans */}
+      <p className="skill-4 skill">NetBeans</p>
+      <p className="year-4 year">0.5</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
+
+      {/* XCode */}
+      <p className="skill-4 skill">XCode</p>
+      <p className="year-4 year">1</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
+
+      {/* DHCP */}
+      <p className="skill-2 skill">DHCP</p>
+      <p className="year-2 year">1.5</p>
+      <p className="proficiency-2 proficiency">Beginner</p>
+
+      {/* PHP My admin */}
+      <p className="skill-4 skill">PHP My admin</p>
+      <p className="year-4 year">1.5</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
+
+      {/* MS Project */}
+      <p className="skill-2 skill">MS Project</p>
+      <p className="year-2 year">1.5</p>
+      <p className="proficiency-2 proficiency">Beginner</p>
 
       {/* Redmine */}
-      <p className="M4 M">Redmine</p>
-      <p className="MY4 MY">1.5</p>
-      <p className="MP4 MP">Beginner</p>
+      <p className="skill-4 skill">Redmine</p>
+      <p className="year-4 year">1.5</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
 
       {/* eTrack */}
-      <p className="M4 M">eTrack</p>
-      <p className="MY4 MY">1</p>
-      <p className="MP4 MP">Beginner</p>
+      <p className="skill-4 skill">eTrack</p>
+      <p className="year-4 year">1</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
 
       {/* Toro */}
-      <p className="M4 M">Toro</p>
-      <p className="MY4 MY">1</p>
-      <p className="MP4 MP">Beginner</p>
+      <p className="skill-4 skill">Toro</p>
+      <p className="year-4 year">1</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
+
+      {/* Test Complete */}
+      <p className="skill-1 skill">Test Complete</p>
+      <p className="year-1 year">0.5</p>
+      <p className="proficiency-1 proficiency">Beginner</p>
+
+      {/* LoadRunner */}
+      <p className="skill-3 skill">LoadRunner</p>
+      <p className="year-3 year">0.5</p>
+      <p className="proficiency-3 proficiency">Beginner</p>
     </div>
   );
 };

@@ -1,39 +1,39 @@
 @media (max-width: 850px) {
-  .MY {
+  .year {
     position: absolute;
     right: -140px;
     font-size: 20px;
   }
-  .MP {
+  .proficiency {
     margin-right: 30px;
     font-size: 20px;
   }
-  .M {
+  .skill {
     font-size: 20px;
   }
 }
 
 @media (max-width: 625px) {
-  .MY {
+  .year {
     position: absolute;
     right: -190px;
     font-size: 20px;
   }
 
-  .M3 {
+  .skill-3 {
     width: 50%;
     line-height: 25px;
   }
 }
 
 @media (max-width: 399px) {
-  .M {
+  .skill {
     font-size: 15px;
   }
-  .MP {
+  .proficiency {
     font-size: 15px;
   }
-  .MY {
+  .year {
     font-size: 15px;
     right: -230px;
   }

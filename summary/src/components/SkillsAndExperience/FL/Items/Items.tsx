@@ -5,8 +5,8 @@ import "./Media.scss";
 const Items = () => {
   return (
     <div>
-      <p className="MY1 MY">Upper</p>
-      <p className="MP1 MP">Intermediate</p>
+      <p className="year-1 year">Upper</p>
+      <p className="proficiency-1 proficiency">Intermediate</p>
     </div>
   );
 };

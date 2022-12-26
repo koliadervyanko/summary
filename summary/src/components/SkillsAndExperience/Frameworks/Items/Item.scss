@@ -21,27 +21,27 @@
   margin-top: -30px;
 }
 
-.M1 {
+.skill-1 {
   @include item();
   padding-top: 31px;
 }
-.M2,
-.M3,
-.M4 {
+.skill-2,
+.skill-3,
+.skill-4 {
   @include item();
 }
 
-.MY1,
-.MY2,
-.MY3,
-.MY4 {
+.year-1,
+.year-2,
+.year-3,
+.year-4 {
   margin-top: -28px;
   @include year();
 }
 
-.MP1,
-.MP2,
-.MP3,
-.MP4 {
+.proficiency-1,
+.proficiency-2,
+.proficiency-3,
+.proficiency-4 {
   @include proficiency();
 }

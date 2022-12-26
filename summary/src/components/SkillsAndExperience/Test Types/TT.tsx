@@ -1,7 +1,7 @@
 import React, { FC } from "react";
-import Items from "./Items/Items";
 import "./TT.scss";
 import "./Media.scss";
+import Items from "./Items/Items";
 
 const TT: FC = () => {
   return (

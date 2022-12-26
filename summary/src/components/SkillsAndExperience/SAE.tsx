@@ -8,6 +8,8 @@ import Environments from "./Environments/Environments";
 import Databases from "./Databases/Databases";
 import Tools from "./Tools/Tools";
 import FL from "./FL/FL";
+import VersoinControlSystem from "./VersoinControlSystem/VersoinControlSystem";
+import ProjectManagmentTools from "./ProjectManagmentTools/ProjectManagmentTools";
 
 const SAE = () => {
   return (
@@ -38,6 +40,9 @@ const SAE = () => {
       <hr className="hr" />
       <FL />
       <hr className="hr" />
+      <VersoinControlSystem />
+      <hr className="hr" />
+      <ProjectManagmentTools />
     </div>
   );
 };

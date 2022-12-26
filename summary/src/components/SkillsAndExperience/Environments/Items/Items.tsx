@@ -1,26 +1,26 @@
-import React from "react";
+import React, { FC } from "react";
 import "./Item.scss";
 import "./Media.scss";
 
-const Items = () => {
+const Items: FC = () => {
   return (
     <div>
       {/* Windows /2003/2008/2012/2014/2016/core/7/8/10 */}
-      <p className="M1 M IW">
+      <p className="skill-1 skill windows">
         Windows / 2003 / 2008 / 2012 / 2014 / 2016 / core / 7 / 8 / 10
       </p>
-      <p className="MY1 MY">6</p>
-      <p className="MP1 MP">Expert</p>
+      <p className="year-1 year">6</p>
+      <p className="proficiency-1 proficiency">Expert</p>
 
       {/* Linux Mandriva/Ubuntu/Fedora */}
-      <p className="M2 M ILinux">CentOS, Redhat</p>
-      <p className="MY2 MY">4</p>
-      <p className="MP2 MP">Intermediate</p>
+      <p className="skill-2 skill ILinux">CentOS, Redhat</p>
+      <p className="year-2 year">4</p>
+      <p className="proficiency-2 proficiency">Intermediate</p>
 
       {/* Mac OS */}
-      <p className="M4 M">Mac OS</p>
-      <p className="MY4 MY">0.5</p>
-      <p className="MP4 MP">Beginner</p>
+      <p className="skill-4 skill">Mac OS</p>
+      <p className="year-4 year">0.5</p>
+      <p className="proficiency-4 proficiency">Beginner</p>
     </div>
   );
 };
