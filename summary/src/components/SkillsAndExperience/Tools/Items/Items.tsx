@@ -1,6 +1,8 @@
 import React from "react";
 import "./Item.scss";
 import "./Media.scss";
+import Card from "../../Card";
+import items from "./Content";
 
 const Items = () => {
   return (

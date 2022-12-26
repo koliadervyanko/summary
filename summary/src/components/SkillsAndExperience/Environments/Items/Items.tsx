@@ -1,28 +1,24 @@
 import React, { FC } from "react";
 import "./Item.scss";
 import "./Media.scss";
+import Card from "../../Card";
+import items from "./Content";
 
 const Items: FC = () => {
-  return (
-    <div>
-      {/* Windows /2003/2008/2012/2014/2016/core/7/8/10 */}
-      <p className="skill-1 skill windows">
-        Windows / 2003 / 2008 / 2012 / 2014 / 2016 / core / 7 / 8 / 10
-      </p>
-      <p className="year-1 year">6</p>
-      <p className="proficiency-1 proficiency">Expert</p>
-
-      {/* Linux Mandriva/Ubuntu/Fedora */}
-      <p className="skill-2 skill ILinux">CentOS, Redhat</p>
-      <p className="year-2 year">4</p>
-      <p className="proficiency-2 proficiency">Intermediate</p>
-
-      {/* Mac OS */}
-      <p className="skill-4 skill">Mac OS</p>
-      <p className="year-4 year">0.5</p>
-      <p className="proficiency-4 proficiency">Beginner</p>
-    </div>
-  );
+  const content = items.map((item, index) => {
+    return (
+      <Card
+        year={item.year}
+        yearClass={item.yearClass}
+        haeding={item.heading}
+        proficiency={item.proficiency}
+        haedingClass={item.haedingClass}
+        proficiencyClass={item.proficiencyClass}
+        key={index}
+      />
+    );
+  });
+  return <div>{content}</div>;
 };
 
 export default Items;
