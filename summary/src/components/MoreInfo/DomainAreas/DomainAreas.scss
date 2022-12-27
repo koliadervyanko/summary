@@ -7,3 +7,48 @@
     width: 250px;
   }
 }
+
+.domain-areas-svg {
+  left: 30%;
+}
+
+// 1382
+
+@media (max-width: 1382px) {
+  .domain-areas-svg {
+    left: 25%;
+  }
+}
+
+// 1088
+
+@media screen and (max-width: 1088px) {
+  .domain-areas-svg {
+    left: 20%;
+  }
+}
+
+// 915
+@media screen and (max-width: 915px) {
+  .domain-areas-svg {
+    left: 15%;
+  }
+}
+
+// 640
+@media screen and (max-width: 640px) {
+  .domain-areas-svg {
+    left: 10%;
+    width: 40px;
+    bottom: 50px;
+  }
+}
+
+// 475
+@media screen and (max-width: 475px) {
+  .domain-areas-svg {
+    left: 5%;
+    width: 30px;
+    bottom: 40px;
+  }
+}

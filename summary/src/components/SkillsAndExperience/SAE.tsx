@@ -10,11 +10,13 @@ import Tools from "./Tools/Tools";
 import FL from "./FL/FL";
 import VersoinControlSystem from "./VersoinControlSystem/VersoinControlSystem";
 import ProjectManagmentTools from "./ProjectManagmentTools/ProjectManagmentTools";
+import Svg from "./Svg";
 
 const SAE = () => {
   return (
     <div>
       <h1 id="SAE">SKILLS AND EXPERIENCE</h1>
+      <Svg />
       <div className="properties">
         <p className="proficiency">Proficiency</p>
 

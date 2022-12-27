@@ -9,7 +9,7 @@ const Nav: FC = () => {
       <nav>
         <div className="navBody">
           <div className="logo">
-            <a href="">LOGO</a>
+            <a href="">MD</a>
           </div>
           <List></List>
         </div>
