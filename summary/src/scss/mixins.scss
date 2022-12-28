@@ -1,0 +1,31 @@
+@import "variables";
+
+@mixin item() {
+  font-weight: 500;
+  margin-left: 40px;
+  font-size: 25px;
+  padding-top: 15px;
+  @content;
+}
+
+@mixin year() {
+  float: right;
+  margin-right: 370px;
+  font-size: 25px;
+  font-weight: 500;
+  @content;
+}
+@mixin proficiency() {
+  font-weight: 500;
+  font-size: 25px;
+  float: right;
+  margin-right: -300px;
+  margin-top: -30px;
+}
+@mixin svg() {
+  width: 50px;
+  position: relative;
+  bottom: 66px;
+  fill: $maincolor;
+  @content;
+}
