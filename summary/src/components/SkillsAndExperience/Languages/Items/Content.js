@@ -37,7 +37,7 @@ const items = [
     year: "0.5",
     yearClass: "year-3 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-3 proficiency",
+    proficiencyClass: "proficiency-3 proficiency two-characters",
   },
   {
     heading: "Python",
@@ -53,7 +53,7 @@ const items = [
     year: "0.5",
     yearClass: "year-4 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-4 proficiency",
+    proficiencyClass: "proficiency-4 proficiency two-characters",
   },
 ];
 

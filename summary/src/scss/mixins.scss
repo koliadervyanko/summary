@@ -29,3 +29,8 @@
   fill: $maincolor;
   @content;
 }
+
+@mixin characters($var) {
+  position: relative;
+  left: $var;
+}

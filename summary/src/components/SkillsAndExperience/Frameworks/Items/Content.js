@@ -21,7 +21,8 @@ const items = [
     year: "0.5",
     yearClass: "year-4 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-4 proficiency",
+    proficiencyClass:
+      "proficiency-4 proficiency two-characters frameworks-begginer",
   },
   {
     heading: "Android SDK",
@@ -29,7 +30,8 @@ const items = [
     year: "0.5",
     yearClass: "year-4 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-4 proficiency",
+    proficiencyClass:
+      "proficiency-4 proficiency two-characters frameworks-begginer",
   },
 ];
 

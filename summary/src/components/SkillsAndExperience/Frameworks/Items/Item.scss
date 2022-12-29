@@ -24,3 +24,6 @@
 .proficiency-4 {
   @include proficiency();
 }
+.frameworks-begginer {
+  @include characters(28px);
+}

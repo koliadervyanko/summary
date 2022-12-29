@@ -1,0 +1,40 @@
+@media (max-width: 850px) {
+  .year {
+    position: absolute;
+    right: -140px;
+    font-size: 20px;
+  }
+  .proficiency {
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  .skill {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 625px) {
+  .year {
+    position: absolute;
+    right: -190px;
+    font-size: 20px;
+  }
+
+  .skill-3 {
+    width: 50%;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 399px) {
+  .skill {
+    font-size: 15px;
+  }
+  .proficiency {
+    font-size: 15px;
+  }
+  .year {
+    font-size: 15px;
+    right: -230px;
+  }
+}

@@ -104,7 +104,7 @@ const items = [
     year: "0.5",
     yearClass: "year-4 year",
     proficiency: "Intermediate",
-    proficiencyClass: "proficiency-4 proficiency",
+    proficiencyClass: "proficiency-4 proficiency two-characters",
   },
   {
     heading: "KDE packages",
@@ -112,7 +112,7 @@ const items = [
     year: "1",
     yearClass: "year-1 year",
     proficiency: "Intermediate",
-    proficiencyClass: "proficiency-1 proficiency",
+    proficiencyClass: "proficiency-1 proficiency one-characters",
   },
   {
     heading: "Microsoft SQL Server 2000 / 2005",
@@ -145,7 +145,7 @@ const items = [
     year: "1.5",
     yearClass: "year-4 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-4 proficiency",
+    proficiencyClass: "proficiency-4 proficiency two-characters",
   },
   {
     heading: "Ant",
@@ -162,7 +162,7 @@ const items = [
     year: "1.5",
     yearClass: "year-1 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-1 proficiency",
+    proficiencyClass: "proficiency-1 proficiency two-characters",
   },
   {
     heading: "Eclipse IDE",
@@ -170,7 +170,7 @@ const items = [
     year: "1.5",
     yearClass: "year-3 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-3 proficiency",
+    proficiencyClass: "proficiency-3 proficiency two-characters",
   },
   {
     heading: "NetBeans",
@@ -178,7 +178,8 @@ const items = [
     year: "0.5",
     yearClass: "year-4 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-4 proficiency",
+    proficiencyClass:
+      "proficiency-4 proficiency two-characters  tools-two-characters",
   },
   {
     heading: "XCode",
@@ -195,7 +196,7 @@ const items = [
     year: "1,5",
     yearClass: "year-2 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-2 proficiency",
+    proficiencyClass: "proficiency-2 proficiency two-characters",
   },
   {
     heading: "PHP My admin",
@@ -203,7 +204,7 @@ const items = [
     year: "1.5",
     yearClass: "year-4 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-4 proficiency",
+    proficiencyClass: "proficiency-4 proficiency two-characters",
   },
   {
     heading: "MS Project",
@@ -211,7 +212,7 @@ const items = [
     year: "1.5",
     yearClass: "year-2 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-2 proficiency",
+    proficiencyClass: "proficiency-2 proficiency two-characters",
   },
   {
     heading: "Redmine",
@@ -219,7 +220,7 @@ const items = [
     year: "1.5",
     yearClass: "year-4 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-4 proficiency",
+    proficiencyClass: "proficiency-4 proficiency two-characters",
   },
 
   {
@@ -244,7 +245,8 @@ const items = [
     year: "0.5",
     yearClass: "year-1 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-1 proficiency",
+    proficiencyClass:
+      "proficiency-1 proficiency two-characters tools-two-characters",
   },
   {
     heading: "LoadRunner",
@@ -252,7 +254,8 @@ const items = [
     year: "0.5",
     yearClass: "year-3 year",
     proficiency: "Beginner",
-    proficiencyClass: "proficiency-3 proficiency",
+    proficiencyClass:
+      "proficiency-3 proficiency two-characters tools-two-characters",
   },
 ];
 

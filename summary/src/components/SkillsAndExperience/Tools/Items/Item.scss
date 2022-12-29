@@ -24,3 +24,7 @@
 .proficiency-4 {
   @include proficiency();
 }
+
+.tools-two-characters {
+  @include characters(26px);
+}

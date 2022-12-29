@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import "./Item.scss";
 import items from "./Item";
 import Card from "../../Card";
+import "./Media.scss";
 
 const Items: FC = () => {
   const content = items.map((item, index) => {
