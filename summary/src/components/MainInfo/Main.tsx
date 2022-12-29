@@ -9,7 +9,7 @@ const Main: FC = () => {
     "https://media.licdn.com/dms/image/C4D03AQGmyV2YoDsJHg/profile-displayphoto-shrink_800_800/0/1606809260685?e=2147483647&v=beta&t=BWzH9M6bWmPExfHMwKBMtNEDfPIcqhxTxeRvCVqUc7I";
   return (
     <div>
-      <h1>Derevyanko Michail CV</h1>
+      <h1 className="main-info-heading">Derevyanko Michail CV</h1>
       <Svg />
       <img src={url} alt="Mykhail" width="700px" height="auto" />
       <Info></Info>
