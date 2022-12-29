@@ -40,3 +40,40 @@
     font-size: 2px;
   }
 }
+
+// skills-and-expirence-svg
+// 1350
+@media screen and (max-width: 1350px) {
+  .skills-and-expirence-svg {
+    left: 15%;
+  }
+}
+// 1110
+@media screen and (max-width: 1110px) {
+  .skills-and-expirence-svg {
+    left: 10%;
+  }
+}
+
+// 961
+@media screen and (max-width: 961px) {
+  .skills-and-expirence-svg {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 863px) {
+  .skills-and-expirence-svg {
+    width: 40px;
+    bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .skills-and-expirence-svg {
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+    top: 0px;
+  }
+}

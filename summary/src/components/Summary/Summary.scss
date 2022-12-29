@@ -9,3 +9,45 @@
   font-weight: 600;
   font-size: 27px;
 }
+
+.summary-svg {
+  height: 50px;
+  width: auto;
+  left: 35%;
+}
+// 1222
+@media screen and (max-width: 1222px) {
+  .summary-svg {
+    left: 30%;
+  }
+}
+
+// 912
+@media screen and (max-width: 912px) {
+  .summary-svg {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 863px) {
+  .summary-svg {
+    width: 40px;
+    bottom: 55px;
+    left: 30%;
+  }
+}
+// 741
+@media screen and (max-width: 741px) {
+  .summary-svg {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 557px) {
+  .summary-svg {
+    display: block;
+    margin-right: 45%;
+    margin-left: 20%;
+    top: 0px;
+  }
+}

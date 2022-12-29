@@ -44,11 +44,11 @@
   }
 }
 
-// 475
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 599px) {
   .domain-areas-svg {
-    left: 5%;
-    width: 30px;
-    bottom: 40px;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    bottom: 5px;
   }
 }

@@ -1,0 +1,40 @@
+.work-expirence-svg {
+  bottom: 100px;
+  left: 25%;
+}
+// 1289
+@media screen and (max-width: 1289px) {
+  .work-expirence-svg {
+    left: 20%;
+  }
+}
+
+// 1055
+@media screen and (max-width: 1055px) {
+  .work-expirence-svg {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .work-expirence-svg {
+    bottom: 90px;
+    left: 10%;
+  }
+}
+// 642
+@media screen and (max-width: 642px) {
+  .work-expirence-svg {
+    left: 5%;
+    width: 40px;
+    bottom: 80px;
+  }
+}
+@media screen and (max-width: 557px) {
+  .work-expirence-svg {
+    display: block;
+    margin-right: 45%;
+    margin-left: 45%;
+    top: -20px;
+  }
+}
