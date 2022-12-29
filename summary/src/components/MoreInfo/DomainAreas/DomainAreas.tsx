@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import "./DomainAreas.scss";
 import Svg from "./Svg";
+import "./Media.scss";
 
 const DomainAreas: FC = () => {
   return (

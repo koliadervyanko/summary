@@ -2,53 +2,6 @@
   margin-left: 10px;
 }
 
-@media (max-width: 471px) {
-  .IC {
-    width: 250px;
-  }
-}
-
 .domain-areas-svg {
   left: 30%;
-}
-
-// 1382
-
-@media (max-width: 1382px) {
-  .domain-areas-svg {
-    left: 25%;
-  }
-}
-
-// 1088
-
-@media screen and (max-width: 1088px) {
-  .domain-areas-svg {
-    left: 20%;
-  }
-}
-
-// 915
-@media screen and (max-width: 915px) {
-  .domain-areas-svg {
-    left: 15%;
-  }
-}
-
-// 640
-@media screen and (max-width: 640px) {
-  .domain-areas-svg {
-    left: 10%;
-    width: 40px;
-    bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 599px) {
-  .domain-areas-svg {
-    display: block;
-    margin-left: 40%;
-    margin-right: 40%;
-    bottom: 5px;
-  }
 }

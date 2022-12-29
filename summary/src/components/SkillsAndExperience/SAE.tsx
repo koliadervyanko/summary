@@ -10,6 +10,7 @@ import Tools from "./Tools/Tools";
 import VersoinControlSystem from "./VersoinControlSystem/VersoinControlSystem";
 import ProjectManagmentTools from "./ProjectManagmentTools/ProjectManagmentTools";
 import Svg from "./Svg";
+import "./Media.scss";
 
 const SAE = () => {
   return (

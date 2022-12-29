@@ -26,7 +26,7 @@
   .logo {
     font-size: 11px;
     position: relative;
-    bottom: 1px;
+    bottom: -1px;
   }
   nav {
     height: 70px;
@@ -34,6 +34,6 @@
   }
   .navBody {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
   }
 }

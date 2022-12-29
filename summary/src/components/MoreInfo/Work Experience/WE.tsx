@@ -3,6 +3,7 @@ import Locations from "./Locations/Locations";
 import Svg from "./Svg";
 
 import "./WE.scss";
+import "./Media.scss";
 
 const WE: FC = () => {
   return (
