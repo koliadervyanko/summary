@@ -108,7 +108,7 @@ const items = [
 
   {
     heading: "User Acceptance Testing",
-    haedingClass: "skill-2 skill",
+    haedingClass: "skill-2 skill user-acceptance-testing",
     year: "3",
     yearClass: "year-2 year",
     proficiency: "Intermediate",

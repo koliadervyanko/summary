@@ -8,7 +8,7 @@ const items = [
     proficiencyClass: "proficiency-1 proficiency",
   },
   {
-    heading: "Linux Mandriva/Ubuntu/Fedora",
+    heading: "Linux Mandriva / Ubuntu / Fedora",
     haedingClass: "skill-2 skill ILinux",
     year: "4",
     yearClass: "year-2 year",

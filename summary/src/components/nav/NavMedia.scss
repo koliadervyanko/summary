@@ -27,6 +27,7 @@
     font-size: 11px;
     position: relative;
     bottom: -1px;
+    right: 10px;
   }
   nav {
     height: 70px;
@@ -35,5 +36,24 @@
   .navBody {
     position: relative;
     bottom: 20px;
+  }
+}
+
+// 359
+@media screen and (max-width: 359px) {
+  .navBody {
+    left: 25px;
+    font-size: 15px;
+  }
+  .logo {
+    right: 30px;
+  }
+}
+
+// 337
+@media screen and (max-width: 337px) {
+  .logo {
+    right: 40px;
+    font-size: 5px;
   }
 }

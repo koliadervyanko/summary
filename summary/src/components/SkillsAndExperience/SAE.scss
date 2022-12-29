@@ -13,12 +13,14 @@
 }
 
 .hr {
-  width: 70%;
+  width: 95%;
   height: 0px;
   border-top-style: none;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 15%;
+  display: block;
+  margin-left: 2.5%;
+  border-radius: 20px;
 
-  border: 0.5px solid #000000;
+  border: 0.002px solid #000000;
 }

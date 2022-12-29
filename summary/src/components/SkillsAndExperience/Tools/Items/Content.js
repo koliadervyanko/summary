@@ -25,7 +25,7 @@ const items = [
   },
   {
     heading: "Microsoft Outlook",
-    haedingClass: "skill-1 skill",
+    haedingClass: "skill-1 skill  microsoft-outlook",
     year: "6",
     yearClass: "year-1 year",
     proficiency: "Expert",
@@ -33,8 +33,8 @@ const items = [
   },
 
   {
-    heading: "Selenium RC/IDE",
-    haedingClass: "skill-2 skill",
+    heading: "Selenium RC / IDE",
+    haedingClass: "skill-2 skill selenium",
     year: "2",
     yearClass: "year-2 year",
     proficiency: "Advanced",
@@ -42,7 +42,7 @@ const items = [
   },
   {
     heading: "Microsoft Visual Studio 2007 / 2010 / 2012/ 2015",
-    haedingClass: "skill-2 skill",
+    haedingClass: "skill-2 skill image.png IMVS",
     year: "6",
     yearClass: "year-2 year",
     proficiency: "Advanced",
@@ -116,14 +116,13 @@ const items = [
   },
   {
     heading: "Microsoft SQL Server 2000 / 2005",
-    haedingClass: "skill-2 skill",
+    haedingClass: "skill-2 skill MSQL",
     year: "2",
     yearClass: "year-2 year",
     proficiency: "Intermediate",
     proficiencyClass: "proficiency-2 proficiency",
   },
 
-  /////////////////////
   {
     heading: "Jira",
     haedingClass: "skill-3 skill",
