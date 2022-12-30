@@ -17,7 +17,3 @@ const items = [
 ];
 
 export default items;
-
-// .emailAdress,
-//     .adress,
-//     .born

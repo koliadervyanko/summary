@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import Linkedin from "./svg/Linkedin/Linkedin";
 import Github from "./svg/github/github";
 import "./Footer.scss";
+import "./Media.scss";
 
 const Footer: FC = () => {
   return (
