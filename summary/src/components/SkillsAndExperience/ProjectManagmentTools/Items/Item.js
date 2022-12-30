@@ -21,7 +21,7 @@ const items = [
     year: "1.5",
     yearClass: "year-1 year",
     proficiency: "Begginer",
-    proficiencyClass: "proficiency-1 proficiency",
+    proficiencyClass: "proficiency-1 proficiency two-characters",
   },
   {
     heading: "eTrack",

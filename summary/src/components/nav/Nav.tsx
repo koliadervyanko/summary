@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import "./Nav.scss";
-import List from "./List";
+import List from "./List/List";
 import "./NavMedia.scss";
 
 const Nav: FC = () => {
