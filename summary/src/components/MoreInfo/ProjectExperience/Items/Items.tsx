@@ -20,9 +20,9 @@ const Items: FC = () => {
         performance test results. Deploying and configuration of the hardware
         monitor system. Collects and analyzes data for software process
         evaluation and improvements, and integrates them into business processes
-        to address the needs of the business. Documents all problems and assists
-        in their resolution. Delivers quality process training to technical
-        staff and acts as an internal quality consultant to advise or influence
+        to the needs of the business. Documents all problems and assists in
+        their resolution. Delivers quality process training to technical staff
+        and acts as an internal quality consultant to advise or influence
         business or technical partners. Reporting of progress status and provide
         significant support in staff planning and supervision. Technologies:
         Java, JMeter, InfluxDb, Grafana <br />
@@ -88,7 +88,8 @@ const Items: FC = () => {
         their maintenance, CI. Customer support in the project related issues.
         <br />
         <span className="boldItem">Technologies:</span> C#, SpecFlow, Azure
-        DevOps Duration: 96 month
+        DevOps <br />
+        <span className="boldItem"> Duration:</span> 96 month
       </p>
 
       <hr className="hr" />

@@ -11,11 +11,17 @@
   .boldText {
     font-size: 20px;
   }
+  .info1 {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 629px) {
   .boldText {
     font-size: 17px;
+  }
+  .info1 {
+    font-size: 15px;
   }
 }
 

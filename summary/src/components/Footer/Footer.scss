@@ -1,1 +1,19 @@
+@import "../../scss/variables.scss";
 
+.email {
+  text-align: center;
+  margin-top: -60px;
+}
+
+.email-link {
+  font-weight: 560;
+  transition: 0.4s;
+}
+
+// 544
+@media screen and (max-width: 544px) {
+  .email {
+    position: relative;
+    right: 20px;
+  }
+}

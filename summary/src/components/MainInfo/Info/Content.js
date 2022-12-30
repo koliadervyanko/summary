@@ -1,12 +1,12 @@
 const items = [
   {
     text: "+38-093-632-19-39",
-    span: "Phone: ",
-    class: "phone",
+    span: "Email: ",
+    class: "emailAdress",
   },
   {
-    text: "28 Geroev Truda ave., apt. 62, Kharkov, Ukraine",
-    span: "Address: ",
+    text: "michal_v_derevyanko",
+    span: "Skype: ",
     class: "address",
   },
   {

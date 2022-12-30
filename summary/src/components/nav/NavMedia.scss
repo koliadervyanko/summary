@@ -12,8 +12,11 @@
   ul {
     font-size: 13px;
     padding-right: -1000px;
-    padding-top: 10px;
+    a {
+      margin-left: -20px;
+    }
   }
+
   .logo {
     font-size: 13px;
   }
@@ -25,7 +28,7 @@
   }
   .logo {
     font-size: 11px;
-    position: relative;
+    // position: relative;
     bottom: -1px;
     right: 10px;
   }
@@ -55,5 +58,30 @@
   .logo {
     right: 40px;
     font-size: 5px;
+  }
+}
+
+// 348
+@media screen and (max-width: 348px) {
+  ul {
+    font-size: 10px;
+  }
+  .logo {
+    position: relative;
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  ul {
+    position: relative;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  li {
+    position: relative;
+    right: 30px;
   }
 }
