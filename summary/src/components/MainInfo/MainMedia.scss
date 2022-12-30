@@ -8,7 +8,8 @@
   }
   .info {
     .emailAdress,
-    .adress .born {
+    .adress,
+    .born {
       margin-left: 50px;
     }
   }
@@ -17,7 +18,8 @@
 @media (max-width: 1064px) {
   .info {
     .emailAdress,
-    .adress .born {
+    .adress,
+    .born {
       margin-left: 150px;
     }
   }
@@ -26,7 +28,8 @@
 @media (max-width: 992px) {
   .info {
     .emailAdress,
-    .adress .born {
+    .adress,
+    .born {
       margin-left: 100px;
       font-size: 25px;
     }
@@ -36,7 +39,8 @@
 @media (max-width: 638px) {
   .info {
     .emailAdress,
-    .adress .born {
+    .adress,
+    .born {
       margin-left: 50px;
       font-size: 20px;
     }

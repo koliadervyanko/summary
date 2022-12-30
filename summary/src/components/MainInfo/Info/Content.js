@@ -1,13 +1,13 @@
 const items = [
   {
-    text: "+38-093-632-19-39",
+    text: "m.v.derevyanko@gmail.com",
     span: "Email: ",
     class: "emailAdress",
   },
   {
     text: "michal_v_derevyanko",
     span: "Skype: ",
-    class: "address",
+    class: "adress",
   },
   {
     text: "1987",
@@ -17,3 +17,7 @@ const items = [
 ];
 
 export default items;
+
+// .emailAdress,
+//     .adress,
+//     .born
