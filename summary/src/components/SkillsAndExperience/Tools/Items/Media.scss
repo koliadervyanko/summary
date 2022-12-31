@@ -1,30 +1,30 @@
 @media (max-width: 850px) {
-  .M {
+  .skill {
     font-size: 20px;
   }
 }
 
 @media (max-width: 625px) {
-  .MY {
+  .year {
     position: absolute;
     right: -190px;
     font-size: 20px;
   }
 
-  .M3 {
+  .skill-3 {
     width: 50%;
     line-height: 25px;
   }
 }
 
 @media (max-width: 399px) {
-  .M {
+  .skill {
     font-size: 15px;
   }
-  .MP {
+  .proficiency {
     font-size: 15px;
   }
-  .MY {
+  .year {
     font-size: 15px;
     right: -230px;
   }
@@ -105,5 +105,14 @@
 @media (max-width: 452px) {
   .MSQL {
     width: 150px;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .microsoft-outlook {
+    width: 50px;
+  }
+  .selenium {
+    width: 120px;
   }
 }

@@ -1,10 +1,13 @@
 import React, { FC } from "react";
 import "./DomainAreas.scss";
+import Svg from "./Svg";
+import "./Media.scss";
 
 const DomainAreas: FC = () => {
   return (
     <div>
       <h1>DOMAIN AREAS</h1>
+      <Svg />
       <p className="normal">
         Digital system (data archving) -
         <span className="bold bold1">Expert</span>

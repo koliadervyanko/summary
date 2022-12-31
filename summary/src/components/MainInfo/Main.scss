@@ -1,9 +1,12 @@
+@import "../../scss/mixins.scss";
+
+@import "../../scss/variables.scss";
 h1 {
   font-size: 50px;
   text-align: center;
   padding-top: 150px;
   font-weight: 700;
-  color: #a435f0;
+  color: $maincolor;
 }
 img {
   display: block;
@@ -15,8 +18,8 @@ img {
 
 .info {
   margin-top: 80px;
-  .phone,
-  .address,
+  .emailAdress,
+  .adress,
   .born {
     font-size: 30px;
     margin-left: 200px;
@@ -25,4 +28,9 @@ img {
   span {
     font-weight: 600;
   }
+}
+
+.svg {
+  @include svg();
+  left: 20%;
 }

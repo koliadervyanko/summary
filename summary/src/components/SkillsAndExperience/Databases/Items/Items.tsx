@@ -1,23 +1,24 @@
-import React from "react";
+import React, { FC } from "react";
 import "./Item.scss";
 import "./Media.scss";
+import Card from "../../Card";
+import items from "./Content";
 
-const Items = () => {
-  return (
-    <div>
-      {/* MySQL */}
-      <p className="M4 M">MySQL</p>
-      <p className="MY4 MY">1</p>
-      <p className="MP4 MP">Beginner</p>
-
-      {/* MS SQL Server 2008 /2010/2012/2014/2016 */}
-      <p className="M4 M M1 IMSS">
-        MS SQL Server 2008 / 2010 / 2012 / 2014 / 2016
-      </p>
-      <p className="MY4 MY">4</p>
-      <p className="MP4 MP">Expert</p>
-    </div>
-  );
+const Items: FC = () => {
+  const content = items.map((item, index) => {
+    return (
+      <Card
+        year={item.year}
+        yearClass={item.yearClass}
+        haeding={item.heading}
+        proficiency={item.proficiency}
+        haedingClass={item.haedingClass}
+        proficiencyClass={item.proficiencyClass}
+        key={index}
+      />
+    );
+  });
+  return <div>{content}</div>;
 };
 
 export default Items;

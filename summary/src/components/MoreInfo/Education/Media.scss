@@ -1,0 +1,34 @@
+@media screen and (max-width: 1338px) {
+  .education-svg {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 1128px) {
+  .education-svg {
+    left: 25%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .education-svg {
+    left: 20%;
+    width: 50px;
+
+    bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 716px) {
+  .education-svg {
+    width: 45px;
+    bottom: 85px;
+  }
+}
+
+@media screen and (max-width: 557px) {
+  .education-svg {
+    display: block;
+    margin-right: 1%;
+    margin-left: 26%;
+    bottom: 50px;
+  }
+}

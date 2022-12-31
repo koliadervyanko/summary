@@ -1,0 +1,50 @@
+@media (max-width: 625px) {
+  .years {
+    font-size: 20px;
+  }
+  .proficiency {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .years {
+    font-size: 15px;
+  }
+  .proficiency {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .skills-and-expirence-svg {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .skills-and-expirence-svg {
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .skills-and-expirence-svg {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 863px) {
+  .skills-and-expirence-svg {
+    width: 40px;
+    bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .skills-and-expirence-svg {
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+    top: 0px;
+  }
+}

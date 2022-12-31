@@ -7,12 +7,16 @@ import F from "./Frameworks/FL";
 import Environments from "./Environments/Environments";
 import Databases from "./Databases/Databases";
 import Tools from "./Tools/Tools";
-import FL from "./FL/FL";
+import VersoinControlSystem from "./VersoinControlSystem/VersoinControlSystem";
+import ProjectManagmentTools from "./ProjectManagmentTools/ProjectManagmentTools";
+import Svg from "./Svg";
+import "./Media.scss";
 
 const SAE = () => {
   return (
     <div>
       <h1 id="SAE">SKILLS AND EXPERIENCE</h1>
+      <Svg />
       <div className="properties">
         <p className="proficiency">Proficiency</p>
 
@@ -36,8 +40,10 @@ const SAE = () => {
       <hr className="hr" />
       <Tools />
       <hr className="hr" />
-      <FL />
+
+      <VersoinControlSystem />
       <hr className="hr" />
+      <ProjectManagmentTools />
     </div>
   );
 };

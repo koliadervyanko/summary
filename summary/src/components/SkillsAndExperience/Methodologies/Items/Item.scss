@@ -1,89 +1,33 @@
-@mixin item() {
-  font-weight: 500;
-  margin-left: 40px;
-  font-size: 25px;
-  padding-top: 15px;
-  @content;
-}
+@import "../../../../scss/mixins.scss";
 
-@mixin year() {
-  float: right;
-  margin-right: 370px;
-  font-size: 25px;
-  font-weight: 500;
-  @content;
-}
-@mixin proficiency() {
-  font-weight: 500;
-  font-size: 25px;
-  float: right;
-  margin-right: -300px;
-  margin-top: -30px;
-}
-
-.M1 {
+.skill-1 {
   @include item();
   padding-top: 31px;
 }
-.M2,
-.M3,
-.M4 {
+.skill-2,
+.skill-3,
+.skill-4 {
   @include item();
 }
 
-.MY1,
-.MY2,
-.MY3,
-.MY4 {
+.year-1,
+.year-2,
+.year-3,
+.year-4 {
   margin-top: -28px;
   @include year();
 }
 
-.MP1,
-.MP2,
-.MP3,
-.MP4 {
+.proficiency-1,
+.proficiency-2,
+.proficiency-3,
+.proficiency-4 {
   @include proficiency();
 }
-@media (max-width: 850px) {
-  .MY {
-    position: absolute;
-    right: -140px;
-    font-size: 20px;
-  }
-  .MP {
-    margin-right: 30px;
-    font-size: 20px;
-  }
-  .M {
-    font-size: 20px;
-  }
+
+.two-characters {
+  @include characters(20px);
 }
-
-@media (max-width: 625px) {
-  .MY {
-    position: absolute;
-    right: -190px;
-    font-size: 20px;
-  }
-
-  .M3 {
-    width: 50%;
-    line-height: 25px;
-  }
-}
-
-// 399
-
-@media (max-width: 399px) {
-  .M {
-    font-size: 15px;
-  }
-  .MP {
-    font-size: 15px;
-  }
-  .MY {
-    font-size: 15px;
-    right: -230px;
-  }
+.one-characters {
+  @include characters(-6px);
 }

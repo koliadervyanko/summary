@@ -12,8 +12,11 @@
   ul {
     font-size: 13px;
     padding-right: -1000px;
-    padding-top: 10px;
+    a {
+      margin-left: -20px;
+    }
   }
+
   .logo {
     font-size: 13px;
   }
@@ -25,8 +28,9 @@
   }
   .logo {
     font-size: 11px;
-    position: relative;
-    bottom: 1px;
+    // position: relative;
+    bottom: -1px;
+    right: 10px;
   }
   nav {
     height: 70px;
@@ -34,6 +38,50 @@
   }
   .navBody {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
+  }
+}
+
+// 359
+@media screen and (max-width: 359px) {
+  .navBody {
+    left: 25px;
+    font-size: 15px;
+  }
+  .logo {
+    right: 30px;
+  }
+}
+
+// 337
+@media screen and (max-width: 337px) {
+  .logo {
+    right: 40px;
+    font-size: 5px;
+  }
+}
+
+// 348
+@media screen and (max-width: 348px) {
+  ul {
+    font-size: 10px;
+  }
+  .logo {
+    position: relative;
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  ul {
+    position: relative;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  li {
+    position: relative;
+    right: 30px;
   }
 }

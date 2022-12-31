@@ -1,47 +1,30 @@
-@mixin item() {
-  font-weight: 500;
-  margin-left: 40px;
-  font-size: 25px;
-  padding-top: 15px;
-  @content;
-}
+@import "../../../../scss/mixins.scss";
 
-@mixin year() {
-  float: right;
-  margin-right: 370px;
-  font-size: 25px;
-  font-weight: 500;
-  @content;
-}
-@mixin proficiency() {
-  font-weight: 500;
-  font-size: 25px;
-  float: right;
-  margin-right: -300px;
-  margin-top: -30px;
-}
-
-.M1 {
+.skill-1 {
   @include item();
   padding-top: 31px;
 }
-.M2,
-.M3,
-.M4 {
+.skill-2,
+.skill-3,
+.skill-4 {
   @include item();
 }
 
-.MY1,
-.MY2,
-.MY3,
-.MY4 {
+.year-1,
+.year-2,
+.year-3,
+.year-4 {
   margin-top: -28px;
   @include year();
 }
 
-.MP1,
-.MP2,
-.MP3,
-.MP4 {
+.proficiency-1,
+.proficiency-2,
+.proficiency-3,
+.proficiency-4 {
   @include proficiency();
+}
+
+.tools-two-characters {
+  @include characters(26px);
 }

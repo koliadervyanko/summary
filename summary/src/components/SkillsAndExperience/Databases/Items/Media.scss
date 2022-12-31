@@ -1,46 +1,49 @@
 @media (max-width: 850px) {
-  .MY {
+  .year {
     position: absolute;
     right: -140px;
     font-size: 20px;
   }
-  .MP {
+  .proficiency {
     margin-right: 30px;
     font-size: 20px;
   }
-  .M {
+  .skill {
     font-size: 20px;
+  }
+  .two-characters {
+    padding-right: 20px;
   }
 }
 
 @media (max-width: 625px) {
-  .MY {
+  .year {
     position: absolute;
     right: -190px;
     font-size: 20px;
   }
 
-  .M3 {
+  .skill-3 {
     width: 50%;
     line-height: 25px;
   }
 }
 
 @media (max-width: 399px) {
-  .M {
+  .skill {
     font-size: 15px;
   }
-  .MP {
+  .proficiency {
     font-size: 15px;
   }
-  .MY {
+  .year {
     font-size: 15px;
     right: -230px;
   }
 }
 
 @media (max-width: 784px) {
-  .IM {
+  .Iskill {
     width: 1px;
   }
 }
@@ -52,25 +55,25 @@
 }
 
 @media (max-width: 460px) {
-  .IMY {
+  .Iyear {
     width: 10px;
   }
 }
 
 @media (max-width: 1024px) {
-  .IMSS {
+  .ms-sql-server {
     width: 350px;
   }
 }
 
 @media (max-width: 653px) {
-  .IMSS {
+  .ms-sql-server {
     width: 250px;
   }
 }
 
 @media (max-width: 493px) {
-  .IMSS {
+  .ms-sql-server {
     width: 150px;
   }
 }

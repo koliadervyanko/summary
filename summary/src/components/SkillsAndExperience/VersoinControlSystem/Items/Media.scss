@@ -1,70 +1,76 @@
 @media (max-width: 850px) {
-  .MY {
+  .year {
     position: absolute;
     right: -140px;
     font-size: 20px;
   }
-  .MP {
+  .proficiency {
     margin-right: 30px;
     font-size: 20px;
   }
-  .M {
+  .skill {
     font-size: 20px;
   }
 }
 
 @media (max-width: 625px) {
-  .MY {
+  .year {
     position: absolute;
     right: -190px;
     font-size: 20px;
   }
 
-  .M3 {
+  .skill-3 {
     width: 50%;
     line-height: 25px;
   }
 }
 
 @media (max-width: 399px) {
-  .M {
+  .skill {
     font-size: 15px;
   }
-  .MP {
+  .proficiency {
     font-size: 15px;
   }
-  .MY {
+  .year {
     font-size: 15px;
     right: -230px;
   }
 }
 
-@media (max-width: 581px) {
-  .ILinux {
-    width: 200px;
+@media (max-width: 784px) {
+  .Iskill {
+    width: 1px;
   }
 }
 
-@media (max-width: 408px) {
-  .ILinux {
-    width: 150px;
+@media (max-width: 559px) {
+  .IL {
+    width: 1px;
   }
 }
 
-@media (max-width: 1179px) {
-  .IW {
-    width: 400px;
+@media (max-width: 460px) {
+  .Iyear {
+    width: 10px;
   }
 }
 
-@media (max-width: 675px) {
-  .IW {
+@media (max-width: 1024px) {
+  .ms-sql-server {
+    width: 350px;
+  }
+}
+
+@media (max-width: 653px) {
+  .ms-sql-server {
     width: 250px;
   }
 }
 
-@media (max-width: 480px) {
-  .IW {
+@media (max-width: 493px) {
+  .ms-sql-server {
     width: 150px;
   }
 }
