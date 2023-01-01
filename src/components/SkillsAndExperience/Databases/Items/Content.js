@@ -1,6 +1,6 @@
 const items = [
   {
-    heading: "MS SQL Server 2008 /2010/2012/2014/201",
+    heading: "MS SQL Server 2008 / 2010 / 2012/ 2014 / 201",
     haedingClass: "skill-4 skill skill-4 ms-sql-server",
     year: "6",
     yearClass: "year-4 year",
