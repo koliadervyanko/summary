@@ -1,11 +1,11 @@
-import React, { FC } from "react";
-import "./DomainAreas.scss";
-import Svg from "./Svg";
-import "./Media.scss";
+import React, { FC } from "react"
+import "./DomainAreas.scss"
+import Svg from "./Svg"
+import "./Media.scss"
 
 const DomainAreas: FC = () => {
   return (
-    <div>
+    <>
       <h1>DOMAIN AREAS</h1>
       <Svg />
       <p className="normal">
@@ -25,8 +25,8 @@ const DomainAreas: FC = () => {
       <p className="normal">
         Information Security -<span className="bold bold1">Beginner</span>
       </p>
-    </div>
-  );
-};
+    </>
+  )
+}
 
-export default DomainAreas;
+export default DomainAreas

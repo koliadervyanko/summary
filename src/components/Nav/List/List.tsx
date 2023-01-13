@@ -1,8 +1,8 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
 const List: FC = () => {
   return (
-    <div>
+    <>
       <div className="list">
         <ul>
           <li>
@@ -16,8 +16,8 @@ const List: FC = () => {
           </li>
         </ul>
       </div>
-    </div>
-  );
-};
+    </>
+  )
+}
 
-export default List;
+export default List

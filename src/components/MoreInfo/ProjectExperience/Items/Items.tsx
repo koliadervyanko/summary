@@ -1,9 +1,9 @@
-import React, { FC } from "react";
-import "./Item.scss";
+import React, { FC } from "react"
+import "./Item.scss"
 
 const Items: FC = () => {
   return (
-    <div>
+    <>
       <p className="normal info1">
         <span className=" boldText">
           Senior Test Engineer / Performance test lead on "E-Gaming" projects
@@ -257,8 +257,8 @@ const Items: FC = () => {
         /XP/2003/2008/Vista/7/core. Desktop security. <br />{" "}
         <span className="boldItem">Duration:</span> 10 months
       </p>
-    </div>
-  );
-};
+    </>
+  )
+}
 
-export default Items;
+export default Items

@@ -1,10 +1,10 @@
-import React, { FC } from "react";
-import "./Locations.scss";
-import "./Media.scss";
+import React, { FC } from "react"
+import "./Locations.scss"
+import "./Media.scss"
 
 const Locations: FC = () => {
   return (
-    <div>
+    <>
       <p className="bold loc1">
         Manufacturing of Electronic Media, Specialist, 2008
       </p>
@@ -18,8 +18,8 @@ const Locations: FC = () => {
       <p className="normal locName2">
         National University of Radio Electronics, Kharkov, Ukraine
       </p>
-    </div>
-  );
-};
+    </>
+  )
+}
 
-export default Locations;
+export default Locations
