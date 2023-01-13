@@ -32,6 +32,6 @@ const items = [
     proficiency: "Intermediate",
     proficiencyClass: "proficiency-4 proficiency two-characters",
   },
-];
+]
 
-export default items;
+export default items
