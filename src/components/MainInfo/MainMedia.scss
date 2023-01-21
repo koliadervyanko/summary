@@ -10,7 +10,7 @@
     .emailAdress,
     .adress,
     .born {
-      margin-left: 50px;
+      margin-left: 40px;
     }
   }
 }
@@ -20,7 +20,7 @@
     .emailAdress,
     .adress,
     .born {
-      margin-left: 150px;
+      margin-left: 40px;
     }
   }
 }
@@ -30,7 +30,7 @@
     .emailAdress,
     .adress,
     .born {
-      margin-left: 100px;
+      margin-left: 40px;
       font-size: 25px;
     }
   }
@@ -41,7 +41,7 @@
     .emailAdress,
     .adress,
     .born {
-      margin-left: 50px;
+      margin-left: 40px;
       font-size: 20px;
     }
   }
@@ -54,6 +54,11 @@
 }
 
 @media (max-width: 435px) {
+  .emailAdress,
+  .adress,
+  .born {
+    margin-left: 40px;
+  }
   img {
     width: 300px;
   }

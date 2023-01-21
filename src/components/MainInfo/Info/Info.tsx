@@ -2,7 +2,7 @@ import React, { FC } from "react"
 import Card from "./Card"
 import items from "./Content"
 
-const Info = () => {
+const Info: FC = () => {
   const conent = items.map((item, index) => {
     return (
       <Card text={item.text} span={item.span} class={item.class} key={index} />

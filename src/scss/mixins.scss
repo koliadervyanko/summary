@@ -19,7 +19,7 @@
   font-weight: 500;
   font-size: 25px;
   float: right;
-  margin-right: -300px;
+  margin-right: -340px;
   margin-top: -30px;
 }
 @mixin svg() {
@@ -33,4 +33,11 @@
 @mixin characters($var) {
   position: relative;
   left: $var;
+}
+
+@mixin category() {
+  font-weight: 600;
+  font-size: 30px;
+  float: right;
+  margin-right: 40px;
 }

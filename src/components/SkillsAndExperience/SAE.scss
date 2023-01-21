@@ -1,15 +1,11 @@
+@import "../../scss/mixins.scss";
+
 .years {
-  font-weight: 600;
-  font-size: 30px;
-  float: right;
-  padding-right: 44px;
+  @include category();
 }
 
 .proficiency {
-  font-weight: 600;
-  font-size: 30px;
-  float: right;
-  margin-right: 100px;
+  @include category();
 }
 
 .hr {
@@ -19,7 +15,7 @@
   margin-top: 40px;
   margin-bottom: 40px;
   display: block;
-  margin-left: 2.5%;
+  margin-left: 40px;
   border-radius: 20px;
 
   border: 0.002px solid #000000;
